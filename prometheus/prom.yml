@@ -4,7 +4,7 @@ global:
 scrape_configs:
   - job_name: node
     static_configs:
-      - targets: ['https://microservicio-notificacionespush-production.up.railway.app/metrics']
+      - targets: ['microservicio-notificacionespush-production.up.railway.app']
 
   #  ? TODO: add your services here
   # - job_name: 'your-job-name'
