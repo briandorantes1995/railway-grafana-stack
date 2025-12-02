@@ -1,5 +1,6 @@
 global:
-  scrape_interval: 15s # Default scrape interval
+  scrape_interval: 60s # Default scrape interval
+  retention: 24h
 
 scrape_configs:
   - job_name: node
