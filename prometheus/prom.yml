@@ -14,7 +14,4 @@ scrape_configs:
       - targets:
           - "microservicio-notificacionespush-production.up.railway.app"
 
-tsdb:
-  retention: 24h
-  out_of_order_time_window: 0s
 
